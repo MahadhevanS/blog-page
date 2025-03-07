@@ -19,8 +19,8 @@
         <p><%= post.content %></p>
 
         <!-- Edit and Delete buttons -->
-        <a href="/edit/<%= index %>"><button>Edit</button></a>
-        <form action="/delete/<%= index %>" method="POST" style="display:inline;" onsubmit="return confirmDelete();">
+        <a href="/edit/<%= post.id %>"><button>Edit</button></a>
+        <form action="/delete/<%= post.id %>" method="POST" style="display:inline;" onsubmit="return confirmDelete();">
             <button type="submit">Delete</button>
           </form>
           
