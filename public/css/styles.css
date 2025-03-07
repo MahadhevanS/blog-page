@@ -1,0 +1,110 @@
+/* Reset default browser padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 40px;
+    color: #333;
+  }
+  
+  nav {
+    background: #4b6cb7;
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #182848;
+  }
+  
+  .post {
+    background: #fff;
+    padding: 25px 30px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  .post h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #4b6cb7;
+  }
+  
+  .post p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  button, input[type="submit"], .btn {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover, input[type="submit"]:hover, .btn:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    transform: translateY(-2px);
+  }
+  
+  form {
+    display: inline;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  form .actions {
+    text-align: center;
+  }
+  
